@@ -21,7 +21,7 @@ setup(
     url='https://github.com/mozilla-releng/bouncerscript',
     packages=find_packages(),
     package_data={
-        "bouncerscript": ["data/*"],
+        "bouncerscript": ["data/*", "test/*"],
     },
     include_package_data=True,
     zip_safe=False,
